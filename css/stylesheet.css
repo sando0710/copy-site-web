@@ -3,53 +3,128 @@ body{
   margin: 0;
 }
 
+// 共通要素
+.common_subtitle {
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.common_section {
+  padding: 70px 5%;
+  margin: 0 auto;
+}
 /* ヘッダーはここから */
 header{
   background: red;
   height: 100px;
-  //両端に余白を作成します。
+  /* 両端に余白を作成します。 */
   padding: 0 5%;
-  //flexboxを使用します。
+  /* flexboxを使用します。 */
+  /* 子要素を横並びにできます。 */
+  display: flex;
+  /* 子要素を両端揃えに出来ます。 */
+  justify-content:space-between;
+  /* 子要素を上下中央揃えに出来ます */
+  align-items: center;
+}
+
+header .header_title{
+  background: black;
+  width: 100px;
+  height: 50px;
+}
+
+header nav{
+  background: black;
+  width: 100px;
+  height: 50px;
 }
 
 /* fvここから */
 .firstview{
   background: blue;
-  height: 300px;
+  width: 400px;
+  height: 600px;
+}
+
+.firstview .firstview_title{
+  margin: auto;
+  height: 100px;
+  width: 400px;
+  background: black;
 }
 
 /* 自己紹介ここから */
 .aboutme{
-  background: blue;
-  height: 300px;
+  padding: 70px 5%;
+  background:green;
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutme .aboutme_img {
+  width: 49%;
+  height: 333px;
+  background: black;
 }
 
 /* スキルここから */
 .skill{
-  background: green;
-  height: 300px;
+  background: gray;
+}
+
+.skill .skill_title {
+  height: 50px;
+  background: black;
 }
 
 /* 作品ここから */
 .works{
-  background: fuchsia;
-  height: 300px;
+  background: gold;
+}
+
+.works .works_title {
+  height: 50px;
+  background: black;
+}
+
+.works ul {
+  height: 400px;
+  background: black;
 }
 
 /* 経歴ここから */
 .timeline{
-  background: aqua;
-  height: 300px;
+  background: fuchsia;
 }
 
+.timeline .timeline_title {
+  height: 50px;
+  background: black;
+}
+
+.timeline .timeline_content {
+  height: 400px;
+  background: black;
+}
 /* 問い合わせここから */
 .contact{
+  background: aqua;
+}
+
+.contact form {
+  height: 400px;
   background: black;
-  height: 100px;
 }
 
 /* フッターここから */
-footer{
+footer ul {
+  width: 400px;
+  height: 50px;
   background:black;
-  height: 100px;
+  margin: 0 auto;
+}
+
+footer p {
+  text-align: center;
 }
