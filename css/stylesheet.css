@@ -6,6 +6,10 @@ body{
 /* ヘッダーはここから */
 header{
   background: red;
+  height: 100px;
+  //両端に余白を作成します。
+  padding: 0 5%;
+  //flexboxを使用します。
 }
 
 /* fvここから */
