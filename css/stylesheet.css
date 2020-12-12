@@ -1,0 +1,51 @@
+/* body共通 */
+body{
+  margin: 0;
+}
+
+/* ヘッダーはここから */
+header{
+  background: red;
+}
+
+/* fvここから */
+.firstview{
+  background: blue;
+  height: 300px;
+}
+
+/* 自己紹介ここから */
+.aboutme{
+  background: blue;
+  height: 300px;
+}
+
+/* スキルここから */
+.skill{
+  background: green;
+  height: 300px;
+}
+
+/* 作品ここから */
+.works{
+  background: fuchsia;
+  height: 300px;
+}
+
+/* 経歴ここから */
+.timeline{
+  background: aqua;
+  height: 300px;
+}
+
+/* 問い合わせここから */
+.contact{
+  background: black;
+  height: 100px;
+}
+
+/* フッターここから */
+footer{
+  background:black;
+  height: 100px;
+}
