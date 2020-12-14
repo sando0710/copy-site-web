@@ -43,8 +43,8 @@ header nav{
 /* fvここから */
 .firstview{
   background: blue;
-  width: 400px;
   height: 600px;
+  display: flex;
 }
 
 .firstview .firstview_title{
@@ -112,12 +112,22 @@ header nav{
   background: aqua;
 }
 
+.contact .contact_title {
+  height: 50px;
+  background: black;
+}
+
 .contact form {
   height: 400px;
   background: black;
 }
 
 /* フッターここから */
+footer {
+  padding: 20px;
+  background: navy;
+}
+
 footer ul {
   width: 400px;
   height: 50px;
