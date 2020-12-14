@@ -54,17 +54,22 @@ header nav ul li a:hover {
 
 
 /* fvここから */
-.firstview{
-  background: blue;
-  width: 400px;
-  height: 600px;
+.firstview {
+  height: 664px;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../img/1stview.png");
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 
-.firstview .firstview_title{
-  margin: auto;
-  height: 100px;
-  width: 400px;
-  background: black;
+.firstview .firstview_title h2 {
+color: white;
+}
+
+.firstview .firstview_title h2 span {
+  font-size: 60px;
 }
 
 /* 自己紹介ここから */
