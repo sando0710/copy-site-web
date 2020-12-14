@@ -3,7 +3,7 @@ body{
   margin: 0;
 }
 
-// 共通要素
+
 .common_subtitle {
   margin: 0 auto;
   margin-bottom: 40px;
@@ -87,7 +87,7 @@ header nav{
   height: 400px;
   background: black;
 }
-
+//
 /* 作品ここから */
 .works{
   background: gold;
