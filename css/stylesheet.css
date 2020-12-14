@@ -83,6 +83,11 @@ header nav{
   background: black;
 }
 
+.skill .skill_content {
+  height: 400px;
+  background: black;
+}
+
 /* 作品ここから */
 .works{
   background: gold;
