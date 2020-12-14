@@ -36,7 +36,7 @@ header .header_title{
 
 header nav{
   background: black;
-  width: 100px;
+  width: 400px;
   height: 50px;
 }
 
@@ -68,6 +68,11 @@ header nav{
   background: black;
 }
 
+.aboutme .aboutme_content {
+  width: 49%;
+  height: 333px;
+  background: black;
+}
 /* スキルここから */
 .skill{
   background: gray;
