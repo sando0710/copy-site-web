@@ -15,36 +15,47 @@ body{
 }
 /* ヘッダーはここから */
 header{
-  background: red;
-  height: 100px;
-  /* 両端に余白を作成します。 */
+  height: 60px;
   padding: 0 5%;
-  /* flexboxを使用します。 */
-  /* 子要素を横並びにできます。 */
   display: flex;
-  /* 子要素を両端揃えに出来ます。 */
-  justify-content:space-between;
-  /* 子要素を上下中央揃えに出来ます */
+  justify-content: space-between;
   align-items: center;
 }
 
-header .header_title{
-  background: black;
-  width: 100px;
-  height: 50px;
+header .header_title　 h1 a {
+  text-decoration: none;
+  color: black;
 }
 
-header nav{
-  background: black;
-  width: 100px;
-  height: 50px;
+header .header_title　 h1 a:hover{
+  color: #e65f78
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+  margin-left: 30px;
+}
+
+header nav ul li a:hover {
+  color: #e65f78;
 }
 
 /* fvここから */
 .firstview{
-  background: blue;
-  width: 400px;
-  height: 600px;
+  height: 664px;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../img/1stview.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
 .firstview .firstview_title{
