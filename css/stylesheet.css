@@ -179,17 +179,40 @@ color: white;
 
 /* 作品ここから */
 .works{
-  background: gold;
-}
-
-.works .works_title {
-  height: 50px;
-  background: black;
+  background: white;
 }
 
 .works ul {
-  height: 400px;
-  background: black;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-inline-start: 0;
+}
+
+.works ul li {
+  border: 2px solid #dcdcdc;
+  width: 32%;
+  border-radius: 10%;
+}
+
+.works ul li img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.works ul li .card_content {
+  padding: 10px 20px;
+}
+
+.works ul li .card_content p {
+  font-size: 12px;
+  border-bottom: 1px dashed black;
+}
+
+.works ul li .card_content .card_umber {
+  text-align: right;
+  font-size: 22px;
 }
 
 /* 経歴ここから */
