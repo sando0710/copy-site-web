@@ -325,23 +325,97 @@ position: relative;
   bottom: 0;
 }
 /* 問い合わせここから */
-.contact{
-  background: aqua;
+.contact {
+  padding: 70px 5%;
+  width: 40%;
+  margin: 0 auto;
+  background-color: white;
+
+}
+.contact .contact_title {
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.contact .contact_title h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.contact .contact_title p {
+  text-align: center;
 }
 
 .contact form {
-  height: 400px;
-  background: black;
+  height: 50px;
+  width: 100%;
+  background: #E9CDC1;
+  border-style: none;
+  margin-bottom: 40px;
+  border-radius: 5px;
 }
 
-/* フッターここから */
-footer ul {
-  width: 400px;
+.contact form textarea {
+  width: 100%;
+  height: 150px;
+  border-style: none;
+  border-radius: 5px;
+  background: #E9CDC1;
+  margin-bottom: 20px;
+}
+
+.contact form button {
+  font-size: 16px;
+  display: block;
+  margin: 40px 0 auto;
+  border-radius: 30px;
+  width: 50%;
   height: 50px;
-  background:black;
-  margin: 0 auto;
+  color: white;
+  border-style: none;
+  background: black;
+  transition: all 0.3s ease 0;
+}
+
+.contact form button:hover {
+  background: #e65f78;
+}
+
+.contact .checkbox_posi {
+  position: relative;
+}
+
+.contact .check {
+  width: 20px;
+  height: 20px;
+  position: absolute left 220px top -24px;;
+}
+/* フッターここから */
+footer {
+  padding: 20px 0;
+  height: auto;
+  background: black;
+}
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+footer ul li {
+  margin-right: 20px;
+}
+
+footer ul li a {
+  fill: white;
+  transition: all 0.3s ease 0s;
+}
+
+footer ul li a:hover {
+  fill: #e65f78;
 }
 
 footer p {
   text-align: center;
+  color: white;
 }
