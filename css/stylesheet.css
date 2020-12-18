@@ -14,9 +14,8 @@ body{
   margin: 0 auto;
 }
 /* ヘッダーはここから */
-header{
-  background: red;
-  height: 100px;
+header {
+  height: 60px;
   /* 両端に余白を作成します。 */
   padding: 0 5%;
   /* flexboxを使用します。 */
@@ -28,16 +27,28 @@ header{
   align-items: center;
 }
 
-header .header_title{
-  background: black;
-  width: 100px;
-  height: 50px;
+header .header_title h1 a {
+  text-decoration: none;
+  color: black;
 }
 
-header nav{
-  background: black;
-  width: 100px;
-  height: 50px;
+header .header_title h1 a:hover {
+  color: black;
+}
+
+header nav ul {
+list-style: none;
+display: flex;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+  margin-left: 30px;
+}
+
+header nav ul li a:hover {
+  color: #e65f78;
 }
 
 /* fvここから */
