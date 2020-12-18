@@ -74,16 +74,45 @@ position: relative;
 /* 自己紹介ここから */
 .aboutme{
   padding: 70px 5%;
-  background:green;
   display: flex;
   justify-content: space-between;
 }
 
-.aboutme .aboutme_img {
+.aboutme .aboutme_img img {
+  width: 536%;
+  height: 333px;
+  border-radius: 10px;
+}
+
+.aboutme .aboutme_content {
   width: 49%;
   height: 333px;
-  background: black;
 }
+
+.aboutme .aboutme_content h2 {
+  margin-block-start: 0;
+}
+
+.aboutme .aboutme_content ul {
+  list-style: none;
+  display: flex;
+  padding-inline-start: 0;
+  margin-block-end: 0;
+  margin-top: 40px;
+}
+
+.aboutme .aboutme_content ul li {
+  margin-right: 20px;
+}
+
+.aboutme .aboutme_content ul li a {
+  transition: all 0.3s ease 0s;
+}
+
+.aboutme .aboutme_content ul li a:hover {
+  fill: #e65f78;
+}
+
 
 /* スキルここから */
 .skill{
