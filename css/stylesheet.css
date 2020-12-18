@@ -367,7 +367,7 @@ position: relative;
 .contact form button {
   font-size: 16px;
   display: block;
-  margin: 40px 0 auto;
+  margin: 40px 0 auto 0;
   border-radius: 30px;
   width: 50%;
   height: 50px;
@@ -388,7 +388,8 @@ position: relative;
 .contact .check {
   width: 20px;
   height: 20px;
-  position: absolute left 220px top -24px;;
+  position: absolute left 220px 
+  top -24px;
 }
 /* フッターここから */
 footer {
