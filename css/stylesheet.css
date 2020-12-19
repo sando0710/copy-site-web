@@ -79,7 +79,7 @@ position: relative;
 }
 
 .aboutme .aboutme_img img {
-  width: 536%;
+  width: 536px;
   height: 333px;
   border-radius: 10px;
 }
@@ -347,16 +347,23 @@ position: relative;
 }
 
 .contact form {
+  height: auto;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.contact form input {
+  width: 500px;
   height: 50px;
-  width: 100%;
+  padding: 1px 2px;
   background: #E9CDC1;
-  border-style: none;
-  margin-bottom: 40px;
   border-radius: 5px;
+  border-style: none;
+  margin: 0 auto;
 }
 
 .contact form textarea {
-  width: 100%;
+  width: 500px;
   height: 150px;
   border-style: none;
   border-radius: 5px;
