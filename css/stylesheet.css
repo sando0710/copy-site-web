@@ -363,7 +363,7 @@ position: relative;
 }
 
 .contact form textarea {
-  width: 500px;
+  width: 125%;
   height: 150px;
   border-style: none;
   border-radius: 5px;
@@ -374,7 +374,7 @@ position: relative;
 .contact form button {
   font-size: 16px;
   display: block;
-  margin: 40px 0 auto 0;
+  margin: 0 auto;
   border-radius: 30px;
   width: 50%;
   height: 50px;
@@ -395,8 +395,9 @@ position: relative;
 .contact .check {
   width: 20px;
   height: 20px;
-  position: absolute left 220px 
-  top -24px;
+  position: relative;
+  top: -24px;
+  left: 200px;
 }
 /* フッターここから */
 footer {
